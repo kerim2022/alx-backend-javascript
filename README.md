@@ -28,4 +28,10 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 + Your code should use the js extension
 + Your code will be tested using the [Jest Testing Framework](https://intranet.alxswe.com/rltoken/ECZpKsJ3fm1qRA7lDyhd_Q)
 + Your code will be analyzed using the linter [ESLint](https://intranet.alxswe.com/rltoken/Ttd9w5jERwTErJW3DDbVoQ) along with specific rules that we’ll provide
-+ All of your functions must be exported
++ All of your functions must be exported  
+## Setup  
+### Install NodeJS 12.11.x  
+(in your home directory):  
+curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
+sudo bash nodesource_setup.sh
+sudo apt install nodejs -y  
