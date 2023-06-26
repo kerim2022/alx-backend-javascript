@@ -8,3 +8,6 @@ Read or watch:
 [Default parameters](https://intranet.alxswe.com/rltoken/kbw9gMO6sdeOKAY23SYVgA)  
 [Rest parameter](https://intranet.alxswe.com/rltoken/erZfCvacuGVk9z1CQlJvYQ)  
 [Javascript ES6 — Iterables and Iterators](https://intranet.alxswe.com/rltoken/JBRaxZsT3mwIGkG6MxeTTg)  
+## Learning Objectives  
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), without the help of Google:  
+
