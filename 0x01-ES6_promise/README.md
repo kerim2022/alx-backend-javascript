@@ -1,25 +1,21 @@
 0x01-ES6_promise  
 # alx-backend-javascript  
-[0x01. ES6 Promises]([https://intranet.alxswe.com/projects/1224#task-11563](https://intranet.alxswe.com/projects/1225))  
+[0x01. ES6 Promises](https://intranet.alxswe.com/projects/1225)    
 ## Resources  
 Read or watch:  
-[Promise]([[https://intranet.alxswe.com/rltoken/NW1dFLFExQ12_hD8yvkV3A](https://intranet.alxswe.com/rltoken/j_0FTFbkTg42JMcAbNPOVQ)](https://intranet.alxswe.com/rltoken/j_0FTFbkTg42JMcAbNPOVQ))  
-[JavaScript Promises: An Introduction][(https://intranet.alxswe.com/rltoken/sroRUsUvOZV28V99MHDenw](https://intranet.alxswe.com/rltoken/2Q2LzNFokcUwpA2u3FKG6Q))  
-[Arrow functions](https://intranet.alxswe.com/rltoken/N2WLylppCtkkX3YFFtyUHw)  
-[Default parameters](https://intranet.alxswe.com/rltoken/kbw9gMO6sdeOKAY23SYVgA)  
-[Rest parameter](https://intranet.alxswe.com/rltoken/erZfCvacuGVk9z1CQlJvYQ)  
-[Javascript ES6 — Iterables and Iterators](https://intranet.alxswe.com/rltoken/JBRaxZsT3mwIGkG6MxeTTg)  
+[Promise](https://intranet.alxswe.com/rltoken/j_0FTFbkTg42JMcAbNPOVQ)    
+[JavaScript Promise: An introduction](https://intranet.alxswe.com/rltoken/2Q2LzNFokcUwpA2u3FKG6Q)    
+[Await](https://intranet.alxswe.com/rltoken/UXb3S2PMBe-SLJ55isMcow)    
+[Async](https://intranet.alxswe.com/rltoken/_K0C7pgEjwaIzU9RpwCb8g)    
+[Throw / Try](https://intranet.alxswe.com/rltoken/UTjDgvKk5l892Xslh0vqcQ)   
 ## Learning Objectives  
-At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), without the help of Google:  
-+ What ES6 is  
-+ New features introduced in ES6
-+ The difference between a constant and a variable
-+ Block-scoped variables
-+ Arrow functions and function parameters default to them
-+ Rest and spread function parameters
-+ String templating in ES6
-+ Object creation and their properties in ES6
-+ Iterators and for-of loops  
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/Z4xW7_BFaRcrHxfDySjKuQ), without the help of Google:  
++ Promises (how, why, and what)
++ How to use the then, resolve, catch methods
++ How to use every method of the Promise object
++ Throw / Try
++ The await operator
++ How to use an async function  
 ## Requirements  
 ### General  
 + All your files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
@@ -27,8 +23,8 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 + All your files should end with a new line
 + A README.md file, at the root of the folder of the project, is mandatory
 + Your code should use the js extension
-+ Your code will be tested using the [Jest Testing Framework](https://intranet.alxswe.com/rltoken/ECZpKsJ3fm1qRA7lDyhd_Q)
-+ Your code will be analyzed using the linter [ESLint](https://intranet.alxswe.com/rltoken/Ttd9w5jERwTErJW3DDbVoQ) along with specific rules that we’ll provide
++ Your code will be tested using Jest and the command npm run test  
++ Your code will be verified against lint using ESLint  
 + All of your functions must be exported  
 ## Setup  
 ### Install NodeJS 12.11.x  
@@ -49,12 +45,31 @@ in your project directory:
 + Install Jest using: npm install --save-dev jest  
 + Install Babel using: npm install --save-dev babel-jest @babel/core @babel/preset-env
 + Install ESLint using: npm install --save-dev eslint
-## Configuration files  
+## Files  
 ### package.json  
 Click to show/hide file contents
 ### babel.config.js  
-Click to show/hide file contents
+Click to show/hide file contents  
+### utils.js  
+Use when you get to tasks requiring uploadPhoto and createUser.
+
+Click to show/hide file contents  
 ### .eslintrc.js  
 Click to show/hide file contents  
-Finally…  
-Don’t forget to run npm install from the terminal of your project folder to install all necessary project dependencies.
+## and…  
+Don’t forget to run $ npm install when you have the package.json  
+# Response Data Format  
+uploadPhoto returns a response with the format  
+```
+{
+  status: 200,
+  body: 'photo-profile-1',
+}
+```
+createUser returns a response with the format  
+```
+{
+  firstName: 'Guillaume',
+  lastName: 'Salva',
+}
+```
