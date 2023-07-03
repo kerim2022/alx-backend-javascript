@@ -4,7 +4,7 @@
 ## Resources  
 Read or watch:  
 [Classes](https://intranet.alxswe.com/rltoken/ke2dSL31JbpAUBW0qWE9WA)      
-[Metaprogramming](hhttps://intranet.alxswe.com/rltoken/6OgF5QGbYclp_cwATfq-0g)    
+[Metaprogramming](https://intranet.alxswe.com/rltoken/6OgF5QGbYclp_cwATfq-0g)      
 ## Learning Objectives  
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/HZvBl09eHoGwvN8jqlYO-g), without the help of Google:  
 + How to define a Class
